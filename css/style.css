@@ -53,14 +53,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-brand {
-  padding: 0px;
+  padding: 5px;
   height: inherit;
   font-family: 'Lato', sans-serif;
 }
 
 .navbar-default .navbar-brand {
   color: #fff;
-  font-size: 34px;
+  font-size: 30px;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
@@ -396,6 +396,7 @@ a, a:hover {
 }
 
 @media (min-width: 20px) and (max-width: 450px) {
+
   .navbar-toggle:hover, .navbar-toggle {
     background-color: #fff;
     color: #000;
@@ -425,11 +426,13 @@ a, a:hover {
   .section-title {
     margin-bottom: 15px;
   }
+
   .cta-txt h3 {
     font-size: 28px;
   }
+
   .navbar-brand .navbar-default{
-    font-size: 20px;
+    font-size: 30px;
     padding: 4px;
     margin-top: 5px;
   }

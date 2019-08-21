@@ -428,6 +428,11 @@ a, a:hover {
   .cta-txt h3 {
     font-size: 28px;
   }
+  .navbar-brand .navbar-default{
+    font-size: 20px;
+    padding: 4px;
+    margin-top: 5px;
+  }
   body {
     font-size: 14px;
   }

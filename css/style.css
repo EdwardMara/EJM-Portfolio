@@ -199,19 +199,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
 }
 
-.section-title:hover .botm-line {
-  width: 70px;
-  /* For Safari 3.1 to 6.0 */
-  -webkit-transition-property: width;
-  -webkit-transition-duration: 2s;
-  -webkit-transition-timing-function: linear;
-  -webkit-transition-delay: 1s;
-  /* Standard syntax */
-  transition-property: width;
-  transition-duration: 2s;
-  transition-timing-function: linear;
-  transition-delay: 1s;
-}
+
 
 p {
   color: #888;
@@ -248,17 +236,6 @@ h3.txt-tl {
   background-position: center center;
 }
 
-.bg-image-2 {
-  background: url('../img/cta-banner.jpg') no-repeat center fixed;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  background-size: 100% auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
 .section {
   position: relative;

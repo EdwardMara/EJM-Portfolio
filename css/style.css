@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-header {
-  background: url(../img/banner.jpeg) no-repeat;
+  background: url(../img/space.jpg) no-repeat;
   background-size: cover;
   min-height: 610px;
 }
@@ -431,3 +431,42 @@ a, a:hover {
 }
 
 /****/
+/* portfolio pic hover */
+.port-container {
+  position: relative;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.port-container:hover .image {
+  opacity: 0.3;
+}
+
+.port-container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
